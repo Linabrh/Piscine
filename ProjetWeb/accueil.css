@@ -1,0 +1,163 @@
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(background.png);
+	background-size: 1920px;
+}
+
+.wrapper
+{
+	width: 100%;
+	min-width: 955px;
+	height: auto;
+	margin: 2px;
+	border: solid;
+	border-width:2px;
+	border-color: #0000AA;
+	background-color: rgba(255,255,255,0.8);
+	
+}
+
+.wrapper h1
+{
+	font-size: 50px;
+	color: #327FD4;
+}
+
+.wrapper img
+{
+	font-size: 15px;
+	color: #090909;
+}
+
+.wrapper a
+{
+	padding: 15px 10px 5px 10px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 9px;
+}
+
+.Navigation
+{
+	width: auto;
+	min-width: 930px;
+	margin: 0px;
+	padding: 30px 10px 30px 10px;
+	border: solid;
+	border-width:2px;
+	border-color: #797979;
+}
+
+.Navigation a
+{
+	
+}
+
+form
+{
+	display: inline-block;
+	cursor: pointer;
+}
+
+.but
+{
+	margin: 0 1% 0 1%;
+ 	padding: 10px 2% 10px 2%;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 9px;
+	background-color: #99C0EC;
+}
+
+.but2
+{
+	border:none;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #99C0EC;
+	cursor: pointer;
+}
+
+.Section
+{
+	color: #99C0EC;
+	margin: auto;
+ 	padding: auto;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+	height: 600px;
+}
+
+.footer
+{
+	font-size: .80em;
+	font-style: italic;
+	padding: 10px 0 10px 0;
+}
+
+.footer a
+{
+	border: none;
+}
+
+#carrousel {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	height:auto;
+	width:700px;
+}
+
+#carrousel img
+{
+	object-fit:cover;
+}
+
+#carrouselTexte
+{
+	float: left;
+	position:relative;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+	height: 400px;
+	width: -webkit-calc(100% - 720px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: rgb(100,150,215);
+}
+
+.scroller
+{
+	overflow-y: scroll;
+	height: 600px;
+} 
+
+.next {
+	position: absolute;
+	right: 0;
+	background-color: #AAAAAA;
+	font-size: 20px;
+	border: none;
+	width: 50px;
+	height: 100%;
+	opacity: 35%;
+	color: #FFFFFF;
+}
+
+.prev 
+{
+	position: absolute;
+	left: 0;
+	background-color: #AAAAAA;
+	font-size: 20px;
+	border: none;
+	width: 50px;
+	height: 100%;
+	opacity: 35%;
+	color: #FFFFFF;
+}
